@@ -8,10 +8,8 @@ function FoodBox(props) {
 
 
     //funcionalidad para delete
-    const deleteThisFood = () => {
-    
+    const deleteThisFood = (event) => {
       props.deleteFood(name)
-
     }
 
     return (
